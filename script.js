@@ -100,7 +100,7 @@ function finish(finalizado){
 
     const textMsg = `Olá, gostaria de fazer o pedido:\n- Prato: ${mainCourse.name}\n- Bebida: ${drink.name}\n- Sobremesa: ${dessert.name}\nTotal: R$ ${totalPrice}`;
 
-    const encode = 'https://wa.me/5521968568714?text='+encodeURIComponent(textMsg);
+    const encode = 'https://wa.me/5511962456385?text='+encodeURIComponent(textMsg);
 
     window.open(encode);
 
