@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="my_style.css">
+    </head>
+    <body>
+        <!-- aqui é o topo do app -->
+        <div class="top">
+            <h1>DrivenEats</h1>
+            <p>Sua comida em 6 minutos</p>
+        </div>
+        <!-- aqui é corpo do app -->
+        <div class="menu">
+            <div class="choice">
+                <h1>Primeiro, seu prato</h1>
+            </div>
+            <div class="main_course">
+                <div class="menus">
+                    <div id="1" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/burguer.jpg" />
+                        <div class="text">
+                            <h1>Burguer da Casa</h1>
+                            <p>200mg de carne, molho e pão</p>
+                            <h2>R$ 15,90</h2>
+                        </div>
+                    </div>
+                    <div id="2" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/frango.png" />
+                        <div class="text">
+                            <h1>Frango Yin Yang</h1>
+                            <p>Um pouco de batata, um pouco de salada</p>
+                            <h2>R$ 14,90</h2>
+                        </div>
+                    </div>
+                    <div id="3" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/burguer.jpg" />
+                        <div class="text">
+                            <h1>Burguer da Casa</h1>
+                            <p>200mg de carne, molho e pão</p>
+                            <h2>R$ 15,95</h2>
+                        </div>
+                    </div>
+                    <div id="4" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/frango.png" />
+                        <div class="text">
+                            <h1>Frango Yin Yang</h1>
+                            <p>Um pouco de batata, um pouco de salada</p>
+                            <h2>R$ 14,95</h2>
+                        </div>
+                    </div>
+                    <div id="5" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/burguer.jpg" />
+                        <div class="text">
+                            <h1>Burguer da casa</h1>
+                            <p>200g de carne, molho e pão</p>
+                            <h2>R$ 15,99</h2>
+                        </div>
+                    </div>
+                    <div id="6" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/frango.png" />
+                        <div class="text">
+                            <h1>Frango Yin Yang</h1>
+                            <p>Um pouco de batata, um pouco de salada</p>
+                            <h2>R$ 14,99</h2>
+                        </div>
+                    </div>
+                    <div id="7" onclick="selectPrincipal(this)" class="plates">
+                        <img src="imgs/burguer.jpg" />
+                        <div class="text">
+                            <h1>Burguer da Casa</h1>
+                            <p>200mg de carne, molho e pão</p>
+                            <h2>R$ 15,98</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choice">
+                <h1>Agora, sua bebida</h1>
+            </div>
+            <div class="drinks">
+                    <div class="menus">
+                        <div id="1" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/coca-cola.jpg" />
+                            <div class="text">
+                                <h1>Coca-Cola</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 4,90</h2>
+                            </div>
+                        </div>
+                        <div id="2" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/pepsi.jpg" />
+                            <div class="text">
+                                <h1>Pepsi original</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 4,90</h2>
+                            </div>
+                        </div>
+                        <div id="3" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/pepsi_black.jpg" />
+                            <div class="text">
+                                <h1>Pepsi black</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 5,90</h2>
+                            </div>
+                        </div>
+                        <div id="4" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/coca-cola.jpg" />
+                            <div class="text">
+                                <h1>Coca-Cola</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 4,91</h2>
+                            </div>
+                        </div>
+                        <div id="5" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/pepsi.jpg" />
+                            <div class="text">
+                                <h1>Pepsi original</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 4,92</h2>
+                            </div>
+                        </div>
+                        <div id="6" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/pepsi_black.jpg" />
+                            <div class="text">
+                                <h1>Pepsi black</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 5,99</h2>
+                            </div>
+                        </div>
+                        <div id="7" onclick="selectDrink(this)" class="plates">
+                            <img src="imgs/coca-cola.jpg" />
+                            <div class="text">
+                                <h1>Coca-Cola</h1>
+                                <p>Lata 350ml</p>
+                                <h2>R$ 4,93</h2>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="choice">
+                <h1>Por fim, sua sobremesa</h1>
+            </div>
+            <div class="dessert">
+                    <div class="menus">
+                        <div id="1" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/pudim.png" />
+                            <div class="text">
+                                <h1>Pudim</h1>
+                                <p>Apenas pudim</p>
+                                <h2>R$ 7,90</h2>
+                            </div>
+                        </div>
+                        <div id="2" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/mouse-maracuja.png" />
+                            <div class="text">
+                                <h1>Mouse de Maracujá</h1>
+                                <p>Sabor maracujá</p>
+                                <h2>R$ 8,90</h2>
+                            </div>
+                        </div>
+                        <div id="3" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/pudim.png" />
+                            <div class="text">
+                                <h1>Pudim</h1>
+                                <p>Apenas pudim</p>
+                                <h2>R$ 7,95</h2>
+                            </div>
+                        </div>
+                        <div id="4" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/mouse-maracuja.png" />
+                            <div class="text">
+                                <h1>Mouse de Maracujá</h1>
+                                <p>Sabor maracujá</p>
+                                <h2>R$ 8,95</h2>
+                            </div>
+                        </div>
+                        <div id="5" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/pudim.png" />
+                            <div class="text">
+                                <h1>Pudim</h1>
+                                <p>Apenas pudim</p>
+                                <h2>R$ 7,99</h2>
+                            </div>
+                        </div>
+                        <div id="6" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/mouse-maracuja.png" />
+                            <div class="text">
+                                <h1>Mouse de Maracujá</h1>
+                                <p>Sabor maracujá</p>
+                                <h2>R$ 9,00</h2>
+                            </div>
+                        </div>
+                        <div id="7" onclick="selectDessert(this)" class="plates">
+                            <img src="imgs/pudim.png" />
+                            <div class="text">
+                                <h1>Pudim</h1>
+                                <p>Apenas pudim</p>
+                                <h2>R$ 8,00</h2>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- aqui é a parte de baixo do app -->
+        <div class="bottom">
+            <button onclick="finish(this)" class="waiting">
+                Selecione os 3 itens para fechar o pedido
+            </button>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
